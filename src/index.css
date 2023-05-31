@@ -9,12 +9,22 @@ html {
   box-sizing: inherit;
 }
 
+p {
+  pointer-events: none;
+}
+
+button {
+  cursor: pointer;
+  pointer-events: all;
+}
+
 body {
   font-family: "Nunito", sans-serif;
 }
 
 select,
-textarea {
+textarea,
+input {
   font-family: "Nunito", sans-serif;
 }
 
