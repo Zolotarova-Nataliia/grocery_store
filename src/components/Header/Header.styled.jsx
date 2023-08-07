@@ -9,6 +9,7 @@ export const HeaderWrap = styled.header`
   background-color: #ffff;
   justify-content: space-between;
   padding: 10px 10px 10px 0;
+  z-index: 10000;
   @media screen and (min-width: 768px) {
     padding: 10px 40px;
   }

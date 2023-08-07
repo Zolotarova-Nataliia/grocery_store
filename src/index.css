@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
+  height: 100%;
 }
 
 *,
@@ -20,6 +21,9 @@ button {
 
 body {
   font-family: "Nunito", sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 select,
